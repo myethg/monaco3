@@ -25,24 +25,7 @@
           "insert": "queue_on_teleport"
       },
     
-      "gethwid": {
-          "label": "gethwid();",
-          "type": "Method",
-          "description": "Returns the User's HWID, changes between PCs.",
-          "insert": "gethwid"
-      },
-      "message": {
-          "label": "message(text);",
-          "type": "Method",
-          "description": "Creates a message box with parameters text",
-          "insert": "message"
-      },
-      "setfflag": {
-          "label": "setfflag(FFlag, Value);",
-          "type": "Method",
-          "description": "Sets FFlag with Value. Must be run before the game loads, auto execute recommended.",
-          "insert": "setfflag"
-      },
+    
       "getinstances": {
           "label": "getinstances();",
           "type": "Method",
@@ -390,48 +373,5 @@
           "insert": "Drawing.new"
       } 
   },
-  "globals_library": {
-    "globals.get_player_by_name": {
-        "label": "globals.get_player_by_name(username);",
-        "type": "Method",
-        "description": "Gets a player by their display name or username.",
-        "insert": "globals.get_player_by_name"
-    },
-    "globals.remote_spy": {
-        "label": "globals.remote_spy();",
-        "type": "Method",
-        "description": "Runs a remote spy supported by globals.",
-        "insert": "globals.remote_spy"
-    },
-    "globals.teleport": {
-        "label": "globals.teleport(vector3);",
-        "type": "Method",
-        "description": "Teleports the local player to a position",
-        "insert": "globals.teleport"
-    },
-    "globals.is_player_alive": {
-        "label": "globals.is_player_alive(username);",
-        "type": "Method",
-        "description": "Checks if a player is alive.",
-        "insert": "globals.is_player_alive"
-    },
-    "globals.teleport_to_player": {
-        "label": "globals.teleport_to_player(username);",
-        "type": "Method",
-        "description": "Teleports the local player to the position of the target player.",
-        "insert": "globals.teleport_to_player"
-    },
-    "globals.get_distance": {
-        "label": "globals.get_distance(username);",
-        "type": "Method",
-        "description": "Calculates the distance between two players.",
-        "insert": "globals.get_distance"
-    },
-    "globals.dex": {
-        "label": "globals.dex();",
-        "type": "Method",
-        "description": "Runs dex (Ultimate Debugging Suite)",
-        "insert": "globals.dex"
-    }
 }
 }
